@@ -1,4 +1,5 @@
 body {
+  text-align: center;
   background-image: linear-gradient(to right, rgb(173, 216, 230), rgb(240,248,255));
 }
 ul {
@@ -11,7 +12,7 @@ p {
 }
 
 h2 {
-  text-align: center
+  text-align: center;
 }
 
 h1 {
@@ -19,7 +20,9 @@ h1 {
   text-align:center;
 }
 h4 {
-  text-decoration: underline
+  float:none;
+  text-decoration: underline;
+  text-align: center;
 }
 img {
   float:inherit;
@@ -62,6 +65,7 @@ ol {
   text-decoration: line-through
 }
 div {
+  text-align: center;
   width:300px;
   height:80px;
   animation-name: done;
@@ -78,19 +82,22 @@ div {
   background-image: linear-gradient(to right, rgb(173, 216, 230), rgb(240,248,255));
 }
 ul {
+  text-align: center;
   text-decoration:line-through
-    background-image: linear-gradient(to right, rgb(240,248,255), aliceblue);
+  background-image: linear-gradient(to right, rgb(240,248,255), aliceblue);
 }
 p {
+  text-align: center;
   color: black;
   background-image: linear-gradient(to right, lightblue, aliceblue);
 }
 
 h2 {
-  text-align: center
+  text-align: center;
 }
 
 h1 {
+  background-color:#8c8cd1
   font-weight: bold;
   text-align:center;
 }
@@ -135,11 +142,14 @@ topnav {
   background-color: floralwhite;
 }
 ol {
-  text-decoration: line-through
+  text-align: center;
 }
 div {
+  text-align: center;
+  float: inherit;
+  text-align: center;
   width:250px;
-  height:80px;
+  height:30px;
   animation-name: done;
   animation-duration: 4s;
   animation-timing-function: linear;
@@ -151,20 +161,18 @@ div {
   border-radius: 100px
 }
 
+
 @keyframes HORRIBLY BEHIND {
+  text-align: center;
   opacity: .5
   0%   {background-color:lightblue;}
   25%  {background-color:royalblue;}
   50%  {background-color:steelblue;}
   75%  {background-color:lightskyblue;}
   100% {background-color:cornflowerblue;} {
-  opacity: .7
-  0%   {background-color:lightblue;}
-  25%  {background-color:royalblue;}
-  50%  {background-color:steelblue;}
-  75%  {background-color:lightskyblue;}
-  100% {background-color:cornflowerblue;}
-.crossout {
-  text-decoration: line-through;
-  text-decoration-line: line-through;
-  }
+    opacity: .7
+      0%   {background-color:lightblue;}
+    25%  {background-color:royalblue;}
+    50%  {background-color:steelblue;}
+    75%  {background-color:lightskyblue;}
+    100% {background-color:cornflowerblue;}
