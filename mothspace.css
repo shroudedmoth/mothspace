@@ -1,0 +1,166 @@
+body {
+  background-image: linear-gradient(to right, rgb(173, 216, 230), rgb(240,248,255));
+}
+ul {
+  text-decoration:line-through
+    background-image: linear-gradient(to right, rgb(240,248,255), aliceblue);
+}
+p {
+  color: black;
+  background-image: linear-gradient(to right, lightblue, aliceblue);
+}
+
+h2 {
+  text-align: center
+}
+
+h1 {
+  font-weight: bold;
+  text-align:center;
+}
+h4 {
+  text-decoration: underline
+}
+img {
+  float:inherit;
+}
+h6 {
+  float: right;
+}
+button{ background-color: #E5D3B8;
+  border-radius: 5px;
+  font-size: 20px
+}
+.button {
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  opacity: 0.75;
+  box-shadow: 0 0px #a49784;
+  border-radius: 7px
+}
+.button:active {
+  transform: translateY(4px); 
+  box-shadow: 0 0px #a49784;
+}
+.button:hover {opacity: 1}
+}
+topnav {
+  overflow: hidden;
+  background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  background-color: floralwhite;
+}
+ol {
+  text-decoration: line-through
+}
+div {
+  width:300px;
+  height:80px;
+  animation-name: done;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  background-color: cadetblue;
+  opacity:.89;
+  border-radius: 100px
+}
+@keyframes body {
+  background-image: linear-gradient(to right, rgb(173, 216, 230), rgb(240,248,255));
+}
+ul {
+  text-decoration:line-through
+    background-image: linear-gradient(to right, rgb(240,248,255), aliceblue);
+}
+p {
+  color: black;
+  background-image: linear-gradient(to right, lightblue, aliceblue);
+}
+
+h2 {
+  text-align: center
+}
+
+h1 {
+  font-weight: bold;
+  text-align:center;
+}
+h4 {
+  text-decoration: underline
+}
+img {
+  float:inherit;
+}
+h6 {
+  float: right;
+}
+button{ background-color: #E5D3B8;
+  border-radius: 5px;
+  font-size: 20px
+}
+.button {
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  opacity: 0.75;
+  box-shadow: 0 0px #a49784;
+  border-radius: 7px
+}
+.button:active {
+  transform: translateY(4px); 
+  box-shadow: 0 0px #a49784;
+}
+.button:hover {opacity: 1}
+}
+topnav {
+  overflow: hidden;
+  background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  background-color: floralwhite;
+}
+ol {
+  text-decoration: line-through
+}
+div {
+  width:250px;
+  height:80px;
+  animation-name: done;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  background-color: cadetblue;
+  opacity:.89;
+  border-radius: 100px
+}
+
+@keyframes HORRIBLY BEHIND {
+  opacity: .5
+  0%   {background-color:lightblue;}
+  25%  {background-color:royalblue;}
+  50%  {background-color:steelblue;}
+  75%  {background-color:lightskyblue;}
+  100% {background-color:cornflowerblue;} {
+  opacity: .7
+  0%   {background-color:lightblue;}
+  25%  {background-color:royalblue;}
+  50%  {background-color:steelblue;}
+  75%  {background-color:lightskyblue;}
+  100% {background-color:cornflowerblue;}
