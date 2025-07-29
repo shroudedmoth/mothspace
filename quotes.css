@@ -1,0 +1,14 @@
+body {
+  color: floralwhite;
+  font-family: cursive;
+  text-align: center;
+  background-image: url("purplehex.png");
+}
+p {
+  text-align: center;
+  color: floralwhite;
+}
+h1 {
+  color: floralwhite;
+  font-weight: bold;
+}
