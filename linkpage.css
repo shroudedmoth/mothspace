@@ -1,10 +1,16 @@
 body {
   text-align: center;
-  background-color: floralwhite
+  background-image: url("spac006.gif");
+  background-color: floralwhite;
 }
 p {
-  color: black;
+  color: white;
 }
 h1 {
+  color: white;
+  font-weight: bold;
+}
+h2 {
+  color: white;
   font-weight: bold;
 }
