@@ -1,7 +1,25 @@
+header {
+  border-width: 10px;
+  border-style: outset;
+  background-color: cadetblue;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: #000000;
+}
+
+.nav {
+  background-color: rgb(230, 233, 255);
+  border-style: outset;
+  border-width: 5px;
+  padding: 10px;
+}
+
 body {
   text-align: center;
   background-image: linear-gradient(to right, rgb(173, 216, 230), rgb(240,248,255));
 }
+
 ul {
   text-decoration:line-through
     background-image: linear-gradient(to right, rgb(240,248,255), aliceblue);
