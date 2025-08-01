@@ -16,6 +16,8 @@ header {
 }
 
 body {
+  border-width: 10px;
+  border-style: outset;
   text-align: center;
   background-image: linear-gradient(to right, rgb(173, 216, 230), rgb(240,248,255));
 }
@@ -76,3 +78,4 @@ topnav {
   width: 300px;
   background-color: floralwhite;
 }
+
