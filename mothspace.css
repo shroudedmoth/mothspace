@@ -8,16 +8,22 @@ header {
   font-size: 35px;
   color: #000000;
 }
+
+* {
+  box-sizing: border-box;
+}
 .row::after {
   content: "";
   clear: both;
   display: table;
 }
+
 .column {
   float: left;
   width: 33.33%;
   padding: 5px;
 }
+
 .nav {
   outline-color: grey;
   background-color: cadetblue;
@@ -87,5 +93,6 @@ topnav {
   padding: 0;
   width: 300px;
 }
+
 
 
